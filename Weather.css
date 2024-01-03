@@ -1,0 +1,101 @@
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.mdiv{
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    background-image: url(https://img.freepik.com/free-vector/flat-design-monsoon-season-clouds-illustration_23-2149424294.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.weather_app{
+    height: 700px;
+    width: 460px;
+    background-color: bisque;
+    box-shadow: 0px 0px 30px blue;
+    border-radius: 50px;
+    padding: 30px;
+}
+.ip{
+    height: 40px;
+    width: 100%;
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 20px;
+    position: relative;
+}
+.ip input{
+    background-image: url(https://www.icegif.com/wp-content/uploads/2023/10/icegif-672.gif);
+    border: none;
+    outline: none;
+    flex: 1;
+    height: 0px;
+    border-radius: 20px;
+    padding: 0px;
+    text-shadow: 0 0 10 red;
+    font-size: 20px;
+    transition-duration: 0.1s;
+}
+.ip:hover input{
+    background-image: url(https://www.icegif.com/wp-content/uploads/2023/10/icegif-672.gif);
+    border: none;
+    outline: none;
+    flex: 1;
+    height: 40px;
+    border-radius: 20px;
+    padding: 25px;
+    text-shadow: 0 0 10 red;
+    font-size: 20px;
+}
+.ip button{
+    height: 40px;
+    width: 70px;
+    border-radius: 20px;
+    position: absolute;
+    right: 0px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+.ip img{
+    height: 40px;
+}
+.weather_img{
+    margin-top: 30px;
+    height: 250px;
+}
+#temp{
+    font-size: 50px;
+    font-family: Arial black;    
+}
+#city{
+    font-size: 35px;
+    font-family: Arial black;
+    color: brown;
+}
+.humi{
+    height: 80px;
+}
+.info2{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.wind,.humidity{
+    margin: 10px 40px 0px;
+}
